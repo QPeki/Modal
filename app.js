@@ -2,7 +2,7 @@ const opens = document.getElementById('open');
 const modalContainer = document.querySelector('.modal-container');
 const closes = document.getElementById('close');
 const closeX = document.getElementById('close-x');
-
+ 
 opens.addEventListener('click', event => {
     event.stopPropagation();
     modalContainer.classList.add('show');
